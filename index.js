@@ -5,7 +5,6 @@ class GaneshList {
   
     addItem(item) {
       this.ganeshItems.push(item);
-      console.log(`Added ${item} to the Ganesh list.`);
     }
   
     removeItem(item) {
